@@ -43,10 +43,10 @@ HCODE_
   STOP states.
 
 .. _Buildroot: https://github.com/open-power/buildroot
-.. _op-build: https://github.com/open-power/op-build
+.. _op-build: https://github.com/7d12BMC/op-build
 .. _SBE: https://github.com/open-power/sbe
 .. _OCC: https://github.com/open-power/occ
-.. _Hostboot: https://github.com/open-power/hostboot
+.. _Hostboot: https://github.com/7d12BMCr/hostboot
 .. _skiboot: https://open-power.github.io/skiboot/
 .. _Linux: https://github.com/open-power/linux
 .. _Petitboot: https://github.com/open-power/petitboot/

@@ -16,7 +16,7 @@ my $repos =
     'op-build' => { REPO => "https://github.com/open-power/op-build" },
     'hcode'    => { REPO => "https://github.com/open-power/hcode" ,
                     DIR => "openpower/package/hcode" },
-    'hostboot' => { REPO => "https://github.com/open-power/hostboot" ,
+    'hostboot' => { REPO => "https://github.com/7d12BMC/hostboot" ,
                     DIR => "openpower/package/hostboot" },
     'sbe'      => { REPO => "https://github.com/open-power/sbe" ,
                     DIR => "openpower/package/sbe"},
@@ -151,7 +151,7 @@ foreach my $p (@common_platforms) {
 	    $witherspoon_insanity = 1;
     }
     next if ($p =~ /witherspoon_dev/);
-    $repos->{"$p-xml"} = { REPO => "https://github.com/open-power/$p-xml" ,
+    $repos->{"$p-xml"} = { REPO => "https://github.com/7d12BMC/$p-xml" ,
 			   DIR => "openpower/package/$p-xml" };
 }
 
